@@ -57,4 +57,5 @@ public class ArrayL<T>{          //на вход любые типы данны�
     public String toString() {
         return Arrays.toString(Arrays.copyOf(list, size));
     }
+
 }
