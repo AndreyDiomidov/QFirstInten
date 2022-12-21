@@ -1,3 +1,7 @@
+import org.junit.Test;
+
+import java.util.ArrayList;
+
 public class Main {
     public Main() {
     }
@@ -13,6 +17,12 @@ public class Main {
         myArrayList.add(33);
         myArrayList.add(43);
         myArrayList.set(0,23);
+        myArrayList.sout();
+        myArrayList.delete((Integer) 1);
+        System.out.println(myArrayList.isEmpty());
         System.out.println(myArrayList);
+
+        ArrayList<Number> arrayList = new ArrayList<Number>();
+
     }
 }
